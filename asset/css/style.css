@@ -1,0 +1,12 @@
+.logo {
+   background-color: navy;
+   padding: 10px;
+   color: white;
+   text-align: center;
+}
+#search-parameters {
+   font-weight: bold;
+   background-color: lightgray;
+   margin-top: 10px;
+   height: 30px;
+}

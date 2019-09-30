@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+   <title>NY Times</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"></script> -->
+
+   <link rel="stylesheet" type="text/css" href= "asset/css/style.css">
+
+</head>
+<body>
+   <div class="outer-container">
+       <div class="col-12">
+           <div class="logo">
+               <h1>New York Times Search</h1>
+           </div>
+           <form>
+               <header id="search-parameters">Search Paramters</header>
+               <div class="form-group">
+                   <label for="ID_GOES_HERE">Search Term:</label>
+                   <input type="text" class="form-control" id="title" placeholder="Search">
+               </div>
+
+               <div class="form-group">
+                   <label for="ID_GOES_HERE">Number of Records to Retrieve</label>
+                   <input type="number" class="form-control" id="pageNumber">
+               </div>
+
+               <div class="form-group">
+                   <label for="ID_GOES_HERE">Start Year (Optional):</label>
+                   <input type="number" class="form-control" id="start" placeholder="Search">
+               </div>
+
+               <div class="form-group">
+                   <label for="ID_GOES_HERE">End Year (Optional):</label>
+                   <input type="number" class="form-control" id="end">
+               </div>
+               <button type="submit" class="btn-submit">Submit</button>
+           </form>
+
+           <div class="article">
+               <header id="top-articles">Top Articles</header>
+           </div>
+           <footer>Made with lots and lots of love</footer>
+       </div>
+   </div>
+   </div>
+
+   <script type="text/javascript" src = "asset/scripts/NyAPI.js"></script>
+
+</body>
+</html>
